@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tableLayout9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/WhenAdded_HereYouCan"
+        android:layout_centerHorizontal="true"
+    android:layout_gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:id="@+id/tableLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/WhenAdded_HereYouCan"
+                android:layout_marginBottom="51dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginStart="24dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="40dp"
+                        android:text="@string/fajr" />
+
+                    <TextView
+                        android:id="@+id/WhenAdded_FajrPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="00:00" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/shuruk" />
+
+                    <TextView
+                        android:id="@+id/WhenAdded_ShurukPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="00:00" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/dhuhr" />
+
+                    <TextView
+                        android:id="@+id/WhenAdded_DhuhrPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="00:00" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/asr" />
+
+                    <TextView
+                        android:id="@+id/WhenAdded_AsrPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="00:00" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/maghrib" />
+
+                    <TextView
+                        android:id="@+id/WhenAdded_MagribPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="00:00" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/isha" />
+
+                    <TextView
+                        android:id="@+id/WhenAdded_IshaPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="00:00" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageButton"
+
+                        android:layout_marginTop="8dp"
+                        android:layout_span="4"
+                        android:text="@string/timedifference"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow android:layout_width="match_parent">
+
+
+                    <com.shawnlin.numberpicker.NumberPicker
+                        android:id="@+id/salahboxtimedifferencenp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        app:np_dividerColor="@color/colorPrimary"
+                        app:np_height="64dp"
+                        app:np_max="59"
+                        app:np_min="-59"
+                        app:np_orientation="horizontal"
+                        app:np_selectedTextColor="@color/colorPrimary"
+                        app:np_selectedTextSize="17dp"
+                        app:np_textColor="@color/colorPrimary"
+                        app:np_textSize="15dp"
+                        app:np_value="0"
+                        app:np_width="150dp" />
+                </TableRow>
+
+                <TableRow android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/WhenAdded_HanafiTextTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageButton"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_span="4"
+                        android:text="@string/hanafi"
+                        android:textAlignment="center" />
+                </TableRow>
+
+                <TableRow>
+
+                    <LinearLayout
+                        android:layout_width="10dip"
+                        android:layout_height="wrap_content"
+                        android:layout_span="4"
+                        android:layout_weight=".20"
+                        android:gravity="center">
+
+                        <CheckBox
+                            android:id="@+id/WhenAdded_HanafiCB"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>

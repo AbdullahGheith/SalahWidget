@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Salah Widget</string>
+    <string name="fajr">Fajr</string>
+    <string name="shuruk">Shuruk</string>
+    <string name="dhuhr">Dhuhr</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="asr">Asr</string>
+    <string name="isha">Isha</string>
+
+    <string name="save">Gem</string>
+    <string name="choose">Vælg</string>
+    <string name="cancel">Annuller</string>
+    <string name="timedifference">Tids forskel</string>
+    <string name="hanafi">Hanafi</string>
+    <string name="shaafi">Shaafi\'</string>
+    <string name="activated">Aktiveret</string>
+    <string name="deactivated">Deaktiveret</string>
+    <string name="add_widget">Tilføj Widget</string>
+    <string name="theme">Tema</string>
+    <string name="qibla">Qibla</string>
+
+    <string name="drawer_open">Åbn navigations skuffe</string>
+    <string name="drawer_close">Luk navigations skuffe</string>
+
+    <string name="thankyouforgps">Tak for din tilladelse</string>
+    <string name="determiningcity">Vent venligst.. Bestemmer din by..</string>
+    <string name="location">Lokation</string>
+    <string name="setuptext">For præcise salah tider, vil vi gerne benytte dine gps data for at finde ud af hvor du befinder dig i verden. Er dette ok?</string>
+    <string name="nothanksmanuelselect">Nej tak. Jeg vil hellere gøre det manuelt</string>
+    <string name="yesplease">Ja tak!</string>
+
+    <string name="foundcity">Jeg tror at jeg har fundet noget, er det her din by?</string>
+    <string name="willstartin">Starter om</string>
+    <string name="salahtexts">Salah Overskrift</string>
+    <string name="salahtimes">Salah Tider</string>
+    <string name="background">Baggrund</string>
+    <string name="corner">Hjørne</string>
+    <string name="widget_updated">Widget Opdateret</string>
+    <string name="themedisclaimer">Tema virker ikke helt endnu. Runde kanter forsvinder hvis du ændrer baggrunden, og hjørnerne virker ikke</string>
+    <string name="qibladisclaimer">Qibla kompasset er stadig i beta.</string>
+
+    <string name="comingsoon">Kommer snart</string>
+    <string name="configure_widget">Konfigurer Widget</string>
+    <string name="configure_holidays">Konfigurer Helligdage</string>
+    <string name="mwl">Muslim World League</string>
+    <string name="isna">Islamic Society of North America</string>
+    <string name="egypt">Egyptian General Authority of Survey</string>
+    <string name="makkah">Umm al-Qura University, Makkah</string>
+    <string name="karachi">University of Islamic Sciences, Karachi</string>
+    <string name="tehran">Institute of Geophysics, University of Tehran</string>
+    <string name="dkmalmooldtimes">De gamle tider (Denmark + Malmö)</string>
+    <string name="dknewtimes">De nye tider (Denmark)</string>
+    <string name="prayer_times_onfiguration">Salah tider konfiguration</string>
+    <string name="primary">Primær</string>
+    <string name="primary_explain_primary">Dette er din primære widget. Du kan kun have 1 primær widget, denne widget er den som vil blive vist i appen når du åbner den.</string>
+    <string name="primary_explain_notprimary">Du kan kun have 1 primær widget, den primære widget vil blive vist når du åbner appen. Tryk her for at gøre denne widget til din primære widget.</string>
+    <string name="name">Navn</string>
+    <string name="name_explain">Det er muligt at oprette forskellige widget med forskellige salah tider. For at kende dem fra hinanden, angiv et navn</string>
+    <string name="name_dialog">Indtast venligst navnet. Feltet må ikke være tomt.</string>
+    <string name="calculation_method">Beregnings metode</string>
+    <string name="calculation_method_explain">Forskellige lande kan have forskellige beregningsmetoder. Som standard, når du opretter en ny widget,
+        vil vi bruge din lokation til at bestemme hvilken beregningsmetode du skal bruge. Hvis denne er forkert, kan du ændre den her.
+    </string>
+    <string name="high_altitude_adjustment">Ekstrem nordlig justering</string>
+    <string name="high_altitude_adjustment_explain">I ekstremt nordlige lokationer hvor man ikke kan bruge solens vinkel til at beregne salah tiderne
+        fordi dagene og nætterne ikke bare er 24 timer, kan man bruge et af de her metoder til at justere for dette.
+    </string>
+    <string name="asr_juristic_method">Asr Retsskole</string>
+    <string name="asr_juristic_method_explain">Vælg den retsskole som du følger hvad angår Asr</string>
+    <string name="timedifferencessetup">Opsæt tidsforskel</string>
+    <string name="timedifferencessetup_explain">Hvis tiderne er næsten korrekte og der kun er et par minutters justering, så kan du gøre det her.
+    </string>
+    <string name="none">Ingen</string>
+    <string name="middle">Midt om natten</string>
+    <string name="oneseventh">Én-Syvnedel af natten</string>
+    <string name="anglebased">Vinkel-baseret beregning</string>
+    <string name="same_for_all">Ændre alle på samme tid</string>
+    <string name="compasscalibration">Kompass kalibrering</string>
+    <string name="compasscalibrationexplanation">Vend telefonen og bevæg i 8 taller for at kalibrere kompasset:</string>
+    <string name="compassaccuracy">Kompass præcision:</string>
+    <string name="low">Lav</string>
+    <string name="medium">Mellem</string>
+    <string name="high">Høj</string>
+    <string name="done">Færdig</string>
+    <string name="reset">Nulstil</string>
+    <string name="nowidget_textheadline">Enten har du ikke tilføjet en widget eller du har ikke valgt en primær widget!</string>
+    <string name="nowidget_text1">For at tilføje en widget, gå til din hjemmeskærm</string>
+    <string name="nowidget_text2">Tryk og hold fingeren nede på et tomt sted</string>
+    <string name="nowidget_text3">Tryk Widgets</string>
+    <string name="nowidget_text4">Find Salah Widget, og vælg den ønskede størrelse.</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="nowidget">Ingen widget</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="anotherday">Se tider for en anden dag</string>
+    <string name="datehint">Tip: I stedet for at trykke herop, kan du bare klikke på datoen på siden</string>
+    <string name="title_activity_adhan_settings">Adhan indstillinger</string>
+    <string name="weekdays">Ugedage</string>
+    <string name="weekendsholidays">Weekender og helligdage</string>
+    <string name="selectcountry">Vælg dit land</string>
+    <string name="selectstate">Angiv forkortelsen af din stat (f.eks. ny for New York)</string>
+    <string name="state">Stat</string>
+    <string name="holidays">Helligdage</string>
+    <string name="holidaysfound">Fundet disse helligdage for dine valg</string>
+    <string name="ok">OK</string>
+    <string name="couldntsaveholidays">Kunne ikke gemme helligdagene. Kontakt venligst udvikleren.</string>
+    <string name="configuration_of_widget">Widget Konfiguration</string>
+    <string name="configure_widget_description">Du har tilføjet en widget til din hjemmeskærm. For at fortsætte skal du angive tidsforskellen mellem København og din by.\nVenligst benyt en eksisterende salah kalender til at finde forskellen.</string>
+    <string name="configure_widget_preview_description">Du får her en forevisning af Salah tiderne for dine indstillinger</string>
+    <string name="configure_widget_hereyoucan">Du kan indstille tidsforskellen samt om det skal være hanafi tider</string>
+    <string name="widget">Widget</string>
+    <string name="enablegpsplease">Slå venligst GPS tilladelser til</string>
+    <string name="enablegpsplease2">Slå venligst GPS til i systemindstillingerne</string>
+    <string name="couldntfindlocation">Ændre venligst GPS præcision til den højeste eller gå udenfor</string>
+    <string name="qiblacompass_not_available">Qibla kompasset vil ikke virke på din telefon fordi den ikke har kompass</string>
+  <string name="enable_adhan_for_these">Adhan indstillinger</string>
+  <string name="other_settings">Andre indstillinger</string>
+    <string name="adhan_type">Adhan Type</string>
+  <string name="adhan_type_description">Vælg hvordan du skal påmindes om Salah</string>
+  <string name="adhan">Adhan</string>
+    <string name="notification">Notifikation</string>
+    <string name="vibration">Vibration</string>
+  <string name="vibration_setting_description">Når det er Salah, så skal telefonen vibrere</string>
+    <string name="notification_setting_description">Når det er Salah tid, giv mig en notifikation.</string>
+    <string name="adhan_setting_description">Afspil Adhan når Salah tiden er inde</string>
+    <string name="adhan_volume">Adhan lydstyrke</string>
+    <string name="time_for_salah">Tid til Salah:</string>
+    <string name="test_adhan">Test Adhan</string>
+    <string name="test_adhan_description">Tryk her for at se din Adhan</string>
+    <string name="starting_test_adhan">Starter test Adhan om 10 sekunder</string>
+    <string name="stop">Stop</string>
+    <string name="remind_me_in">Påmind mig igen om</string>
+    <string name="min15">15 min.</string>
+    <string name="min30">30 min.</string>
+    <string name="min45">45 min.</string>
+
+</resources>

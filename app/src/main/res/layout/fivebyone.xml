@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="40dp"
+    android:minWidth="321dp"
+    android:background="#FFFFFF"
+    android:clickable="true"
+    android:id="@+id/widgetfivebyone">
+
+        <LinearLayout
+            android:id="@+id/firstrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+              android:id="@+id/fajrTV_FiveByOne"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1.2"
+              android:layout_margin="5dp"
+              android:clickable="true"
+              android:text="@string/fajr"
+              android:textAlignment="center"
+              android:textAppearance="@style/TextAppearance.AppCompat.Small"
+              android:textSize="@dimen/textsize"/>
+
+            <TextView
+                android:id="@+id/shurukTV_FiveByOne"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1.2"
+                android:text="@string/shuruk"
+                android:textAlignment="center"
+                android:textSize="@dimen/textsize"/>
+            <TextView
+                android:id="@+id/dhuhrTV_FiveByOne"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1.2"
+                android:text="@string/dhuhr"
+                android:textAlignment="center"
+                android:textSize="@dimen/textsize"  />
+
+            <TextView
+                android:id="@+id/asrTV_FiveByOne"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.9"
+                android:paddingLeft="5dp"
+                android:text="@string/asr"
+                android:textAlignment="center"
+                android:textSize="@dimen/textsize"  />
+
+            <TextView
+                android:id="@+id/maghribTV_FiveByOne"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1.5"
+                android:maxLines="1"
+                android:text="@string/maghrib"
+                android:textAlignment="center"
+                android:textSize="@dimen/textsize"  />
+
+            <TextView
+                android:id="@+id/ishaTV_FiveByOne"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:paddingRight="5dp"
+                android:text="@string/isha"
+                android:textAlignment="center"
+                android:textSize="@dimen/textsize"  />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/secondrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/firstrow"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/fajrTimeTV_FiveByOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1.2"
+            android:text="00:00"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/shurukTimeTV_FiveByOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1.2"
+            android:text="00:00"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/dhuhrTimeTV_FiveByOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1.2"
+            android:text="00:00"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/asrTimeTV_FiveByOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1.2"
+            android:text="00:00"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/maghribTimeTV_FiveByOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1.2"
+            android:text="00:00"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/ishaTimeTV_FiveByOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1.2"
+            android:text="00:00"
+            android:textAlignment="center"
+            android:textSize="@dimen/textsize" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="adhan_types_entries">
+    <item>notification</item>
+    <item>vibration</item>
+    <item>adhan</item>
+  </string-array>
+  <string-array name="adhan_types_entry_values">
+    <item>@string/notification</item>
+    <item>@string/vibration</item>
+    <item>@string/adhan</item>
+  </string-array>
+</resources>

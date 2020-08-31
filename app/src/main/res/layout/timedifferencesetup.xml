@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center">
+
+    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+        android:id="@+id/timedifference_cb_changeallsametime" android:text="@string/same_for_all"
+        android:layout_marginTop="12dp" />
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dp"  >
+        <TextView android:text="@string/fajr" android:layout_width="100dp" android:layout_height="match_parent"
+            android:id="@+id/textView" android:gravity="center"  />
+        <com.shawnlin.numberpicker.NumberPicker android:id="@+id/timedifferencefajr" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:np_dividerColor="@color/colorPrimary" app:np_height="64dp" app:np_max="59" app:np_min="-59"
+            app:np_orientation="horizontal" app:np_selectedTextColor="@color/colorPrimary" app:np_selectedTextSize="17dp"
+            app:np_textColor="@color/colorPrimary" app:np_textSize="15dp" app:np_value="0" app:np_width="150dp"
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+        />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal"  android:layout_marginTop="5dp" >
+        <TextView android:text="@string/shuruk" android:layout_width="100dp" android:layout_height="match_parent"
+            android:id="@+id/textView2" android:gravity="center" />
+        <com.shawnlin.numberpicker.NumberPicker android:id="@+id/timedifferenceshuruk" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:np_dividerColor="@color/colorPrimary" app:np_height="64dp" app:np_max="59" app:np_min="-59"
+            app:np_orientation="horizontal" app:np_selectedTextColor="@color/colorPrimary" app:np_selectedTextSize="17dp"
+            app:np_textColor="@color/colorPrimary" app:np_textSize="15dp" app:np_value="0" app:np_width="150dp"
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+        />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dp"  >
+        <TextView android:text="@string/dhuhr" android:layout_width="100dp" android:layout_height="match_parent"
+            android:id="@+id/textView3" android:gravity="center" />
+        <com.shawnlin.numberpicker.NumberPicker android:id="@+id/timedifferencedhuhr" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:np_dividerColor="@color/colorPrimary" app:np_height="64dp" app:np_max="59" app:np_min="-59"
+            app:np_orientation="horizontal" app:np_selectedTextColor="@color/colorPrimary" app:np_selectedTextSize="17dp"
+            app:np_textColor="@color/colorPrimary" app:np_textSize="15dp" app:np_value="0" app:np_width="150dp"
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+        />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dp"  >
+        <TextView android:text="@string/asr" android:layout_width="100dp" android:layout_height="match_parent"
+            android:id="@+id/textView4" android:gravity="center" />
+        <com.shawnlin.numberpicker.NumberPicker android:id="@+id/timedifferenceasr" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:np_dividerColor="@color/colorPrimary" app:np_height="64dp" app:np_max="59" app:np_min="-59"
+            app:np_orientation="horizontal" app:np_selectedTextColor="@color/colorPrimary" app:np_selectedTextSize="17dp"
+            app:np_textColor="@color/colorPrimary" app:np_textSize="15dp" app:np_value="0" app:np_width="150dp"
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+        />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dp"  >
+        <TextView android:text="@string/maghrib" android:layout_width="100dp" android:layout_height="match_parent"
+            android:id="@+id/textView5" android:gravity="center" />
+        <com.shawnlin.numberpicker.NumberPicker android:id="@+id/timedifferencemaghrib" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:np_dividerColor="@color/colorPrimary" app:np_height="64dp" app:np_max="59" app:np_min="-59"
+            app:np_orientation="horizontal" app:np_selectedTextColor="@color/colorPrimary" app:np_selectedTextSize="17dp"
+            app:np_textColor="@color/colorPrimary" app:np_textSize="15dp" app:np_value="0" app:np_width="150dp"
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+        />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="5dp" >
+        <TextView android:text="@string/isha" android:layout_width="100dp" android:layout_height="match_parent"
+            android:id="@+id/textView6" android:gravity="center" />
+        <com.shawnlin.numberpicker.NumberPicker android:id="@+id/timedifferenceisha" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:np_dividerColor="@color/colorPrimary" app:np_height="64dp" app:np_max="59" app:np_min="-59"
+            app:np_orientation="horizontal" app:np_selectedTextColor="@color/colorPrimary" app:np_selectedTextSize="17dp"
+            app:np_textColor="@color/colorPrimary" app:np_textSize="15dp" app:np_value="0" app:np_width="150dp"
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+        />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <androidx.cardview.widget.CardView android:layout_margin="5dp" android:id="@+id/bigprayertime_cardview" android:layout_width="match_parent" android:layout_height="wrap_content" >
+       <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bigprayertime_relativelayout"
+            android:layout_alignRight="@+id/bigprayertime_relativelayout"
+            android:layout_alignTop="@+id/bigprayertime_relativelayout"
+            android:layout_alignBottom="@+id/bigprayertime_relativelayout"
+            android:adjustViewBounds="true"
+            android:id="@+id/cardview_imageview"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fajr"
+        />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+        android:id="@+id/bigprayertime_relativelayout">
+            <TextView
+                android:layout_width="wrap_content"
+                android:maxLines="1"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:id="@+id/bigprayertime_salahText"
+                android:layout_alignParentLeft="true"
+                style="@style/textshadow"
+                android:text="Fajr"
+                />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/bigprayertime_salahTime"
+                style="@style/textshadow" android:textSize="30sp"
+                android:text="00:00" android:layout_centerVertical="true" android:layout_alignParentEnd="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+       </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

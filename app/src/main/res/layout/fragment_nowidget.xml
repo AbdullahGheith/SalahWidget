@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center">
+
+    <TextView android:text="@string/nowidget_textheadline" android:gravity="center" android:layout_marginBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/textView11" />
+    <TextView android:text="@string/nowidget_text1" android:gravity="center" android:layout_marginBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/textView12" />
+    <TextView android:text="@string/nowidget_text2" android:gravity="center" android:layout_marginBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/textView13" />
+    <TextView android:text="@string/nowidget_text3" android:gravity="center" android:layout_marginBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/textView14" />
+    <TextView android:text="@string/nowidget_text4" android:gravity="center" android:layout_marginBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:id="@+id/textView15" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_theme"
+        android:enabled="true"
+        android:icon="@drawable/ic_brush_white_24dp"
+        android:title="@string/theme"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_qibla"
+        android:enabled="true"
+        android:icon="@drawable/kaaba"
+        android:title="@string/qibla"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_timedifference"
+        android:enabled="true"
+        android:icon="@drawable/ic_query_builder_white_24dp"
+        android:title="@string/timedifference"
+        app:showAsAction="ifRoom" />
+</menu>
