@@ -1,0 +1,149 @@
+<resources>
+  <string name="app_name">Salah Widget</string>
+  <string name="fajr">Fajr</string>
+  <string name="shuruk">Shuruk</string>
+  <string name="dhuhr">Dhuhr</string>
+  <string name="maghrib">Maghrib</string>
+  <string name="asr">Asr</string>
+  <string name="isha">Isha</string>
+
+  <string name="save">Save</string>
+  <string name="choose">Choose</string>
+  <string name="cancel">Cancel</string>
+  <string name="timedifference">Time difference</string>
+  <string name="hanafi">Hanafi</string>
+  <string name="shaafi">Shaafi\'</string>
+  <string name="activated">Activated</string>
+  <string name="deactivated">Deactivated</string>
+  <string name="add_widget">Add Widget</string>
+  <string name="theme">Theme</string>
+  <string name="qibla">Qibla</string>
+
+  <string name="drawer_open">Open navigation drawer</string>
+  <string name="drawer_close">Close navigation drawer</string>
+
+  <string name="thankyouforgps">Thank you for allowing us to do so</string>
+  <string name="determiningcity">Please wait .. Determining your city..</string>
+  <string name="location">Location</string>
+  <string name="setuptext">For accurate prayer times, we would like to use your gps data to determine where you are in the world. Is that alright?</string>
+  <string name="nothanksmanuelselect">No thank you. I would rather do it manually</string>
+  <string name="yesplease">Yes Please!</string>
+
+  <string name="foundcity">I believe i found it. Is this is?</string>
+  <string name="willstartin">will start in</string>
+  <string name="salahtexts">Salah Texts</string>
+  <string name="salahtimes">Salah Times</string>
+  <string name="background">Background</string>
+  <string name="corner">Corner</string>
+  <string name="widget_updated">Widget Updated</string>
+  <string name="themedisclaimer">Theme are not fully working yet. Rounded corners disappear if you change the
+        background. Also, the corner doesnt work.
+    </string>
+  <string name="qibladisclaimer">This qibla compass is still in beta.</string>
+
+  <string name="comingsoon">Coming Soon</string>
+  <string name="configure_widget">Configure Widget</string>
+  <string name="configure_holidays">Configure Holidays</string>
+  <string name="mwl">Muslim World League</string>
+  <string name="isna">Islamic Society of North America</string>
+  <string name="egypt">Egyptian General Authority of Survey</string>
+  <string name="makkah">Umm al-Qura University, Makkah</string>
+  <string name="karachi">University of Islamic Sciences, Karachi</string>
+  <string name="tehran">Institute of Geophysics, University of Tehran</string>
+  <string name="dkmalmooldtimes">The old times (Denmark + Malmö)</string>
+  <string name="dknewtimes">The new times (Denmark)</string>
+  <string name="prayer_times_onfiguration">Prayer Times Configuration</string>
+  <string name="primary">Primary</string>
+  <string name="primary_explain_primary">This is your primary widget. You can only have 1 primary widget, which will
+        be the one that is shown when you open the primary app
+    </string>
+  <string name="primary_explain_notprimary">You can only have 1 primary widget, which will be the one that is shown
+        when you open the primary app. Click here to set this widget as your primary
+    </string>
+  <string name="name">Name</string>
+  <string name="name_explain">It\'s possible to create different widgets with different prayer times. In order to know
+        them apart, please give them a name
+    </string>
+  <string name="name_dialog">Please enter the desired name. The field can not be empty</string>
+  <string name="calculation_method">Calculation Method</string>
+  <string name="calculation_method_explain">Different countries may use different calculation methods. Per default,
+        when you create a new widget, we use your location to try to determine what kind of calculation method you use.
+        If it\'s wrong, you can change it here.
+    </string>
+  <string name="high_altitude_adjustment">High Altitude Adjustment</string>
+  <string name="high_altitude_adjustment_explain">In locations at higher latitude, twilight may persist throughout the
+        night during some months of the year. In these abnormal periods, the determination of Fajr and Isha is not
+        possible using the usual formulas mentioned in the previous section. To overcome this problem, several solutions
+        have been proposed, three of which are described below.
+    </string>
+  <string name="asr_juristic_method">Asr Juristic Method</string>
+  <string name="asr_juristic_method_explain">Select the juristic you follow for determining Asr</string>
+  <string name="timedifferencessetup">Setup time differences</string>
+  <string name="timedifferencessetup_explain">If the times are almost correct, and you just need to adjust a few
+        minutes difference, you can do so here.
+    </string>
+  <string name="none">None</string>
+  <string name="middle">Middle of the night</string>
+  <string name="oneseventh">One-Seventh of the night</string>
+  <string name="anglebased">Angle-Based Method</string>
+  <string name="same_for_all">Change them all at the same time</string>
+  <string name="compasscalibration">Compass calibration</string>
+  <string name="compasscalibrationexplanation">Tilt and move your phone like this to calibrate the compass:</string>
+  <string name="compassaccuracy">Compass accuracy:</string>
+  <string name="low">low</string>
+  <string name="medium">medium</string>
+  <string name="high">high</string>
+  <string name="done">done</string>
+  <string name="reset">Reset</string>
+  <string name="nowidget_textheadline">You either didn\'t add a widget or you don\'t have a primary widget!</string>
+  <string name="nowidget_text1">To add a widget, please go to your homescreen</string>
+  <string name="nowidget_text2">Long press in an empty spot</string>
+  <string name="nowidget_text3">Click widgets</string>
+  <string name="nowidget_text4">Find Salah Widget, and choose the size that you want.</string>
+  <string name="title_activity_main2">MainActivity2</string>
+  <string name="nowidget">No Widget</string>
+  <string name="nav_header_desc">Navigation header</string>
+  <string name="anotherday">See times for another day</string>
+  <string name="datehint">Hint: Instead, you can also click the date on the screen to select another date</string>
+  <string name="title_activity_adhan_settings">AdhanSettings</string>
+  <string name="weekdays">Weekdays</string>
+  <string name="weekendsholidays">Weekends And Holidays</string>
+  <string name="selectcountry">Select your country</string>
+  <string name="selectstate">Type in the abbreviation of your state (e.g. ny for new york)</string>
+  <string name="state">State</string>
+  <string name="holidays">Holidays</string>
+  <string name="holidaysfound">Found these holidays for your selection</string>
+  <string name="ok">OK</string>
+  <string name="couldntsaveholidays">Couldn\'t save holidays. Try again or contact developer</string>
+  <string name="configuration_of_widget">Widget Configuration</string>
+  <string name="configure_widget_description">You\'ve added a widget to your home screen. For at fortsætte skal du angive tidsforskellen mellem København og din by.\nVenligst benyt en eksisterende salah kalender til at finde forskellen.</string>
+  <string name="configure_widget_preview_description">Du får her en forevisning af Salah tiderne for dine indstillinger</string>
+  <string name="configure_widget_hereyoucan">Du kan indstille tidsforskellen samt om det skal være hanafi tider</string>
+  <string name="widget">Widget</string>
+  <string name="enablegpsplease">Please enable GPS permission</string>
+  <string name="enablegpsplease2">Please enable GPS in settings</string>
+  <string name="couldntfindlocation">Please change GPS settings to High Accuracy or go outside.</string>
+  <string name="qiblacompass_not_available">Qibla won\'t work on your phone as it doesn\'t have a compass</string>
+  <string name="enable_adhan_for_these">Enable Adhan for the following Salah</string>
+  <string name="other_settings">Other Settings</string>
+  <string name="adhan_type">Adhan Type</string>
+  <string name="adhan_type_description">Choose how you want to be reminded of Salah</string>
+  <string name="notification">Notification</string>
+  <string name="vibration">Vibration</string>
+  <string name="adhan">Adhan</string>
+  <string name="vibration_setting_description">When it\'s Salah time, vibrate the phone.</string>
+  <string name="adhan_setting_description">When it\'s Salah time, play the Adhan</string>
+  <string name="adhan_volume">Adhan volume</string>
+  <string name="notification_setting_description">When it\'s Salah time, give me a notification</string>
+  <string name="time_for_salah">Time for Salah:</string>
+  <string name="test_adhan">Test Adhan</string>
+  <string name="test_adhan_description">Click here to test your Adhan</string>
+  <string name="starting_test_adhan">Starting test Adhan in 10 seconds</string>
+  <string name="stop">Stop</string>
+  <string name="remind_me_in">Remind me again in</string>
+  <string name="min15">15 min.</string>
+  <string name="min30">30 min.</string>
+  <string name="min45">45 min.</string>
+
+
+</resources>

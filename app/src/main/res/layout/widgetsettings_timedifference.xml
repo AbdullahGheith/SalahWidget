@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/headline"/>
+
+    <ListView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/timedifference_listview"></ListView>
+    <!--<Button android:text="@string/calculation_method" android:layout_width="match_parent" android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btn_ptconfig_calcmethod" />-->
+    <!--<Button android:text="@string/high_altitude_adjustment" android:layout_width="match_parent" android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btn_ptconfig_highaltitude" />-->
+    <!--<Button android:text="@string/asr_juristic_method" android:layout_width="match_parent" android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btn_ptconfig_asrjuristic" />-->
+    <!--<Button android:text="@string/timedifferencessetup" android:layout_width="match_parent" android:layout_height="wrap_content"-->
+        <!--android:id="@+id/btn_ptconfig_timedifference" />-->
+
+
+</LinearLayout>

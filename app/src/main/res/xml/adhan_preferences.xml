@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+  <androidx.preference.PreferenceCategory android:title="@string/enable_adhan_for_these" app:iconSpaceReserved="false">
+    <androidx.preference.SwitchPreferenceCompat
+      app:iconSpaceReserved="false"
+      android:key="pref_fajr"
+      android:title="@string/fajr"
+      android:defaultValue="true" />
+
+  <androidx.preference.SwitchPreferenceCompat
+      app:iconSpaceReserved="false"
+      android:key="pref_dhuhr"
+      android:title="@string/dhuhr"
+      android:defaultValue="true" />
+
+  <androidx.preference.SwitchPreferenceCompat
+      app:iconSpaceReserved="false"
+      android:key="pref_asr"
+      android:title="@string/asr"
+      android:defaultValue="true" />
+
+  <androidx.preference.SwitchPreferenceCompat
+      app:iconSpaceReserved="false"
+      android:key="pref_maghrib"
+      android:title="@string/maghrib"
+      android:defaultValue="true" />
+
+  <androidx.preference.SwitchPreferenceCompat
+      app:iconSpaceReserved="false"
+      android:key="pref_isha"
+      android:title="@string/isha"
+      android:defaultValue="true" />
+  </androidx.preference.PreferenceCategory>
+  <androidx.preference.PreferenceCategory android:title="@string/adhan_type" app:iconSpaceReserved="false">
+    <CheckBoxPreference
+      android:key="pref_notification"
+      android:title="@string/notification"
+      android:summary="@string/notification_setting_description"
+      android:defaultValue="true"
+      />
+    <CheckBoxPreference
+      android:key="pref_vibrate"
+      android:title="@string/vibration"
+      android:summary="@string/vibration_setting_description"
+      android:defaultValue="true"
+      />
+    <CheckBoxPreference
+      android:key="pref_adhan"
+      android:title="@string/adhan"
+      android:summary="@string/adhan_setting_description"
+      android:defaultValue="false"
+      />
+    <SeekBarPreference
+      android:key="pref_adhan_volume"
+      android:title="@string/adhan_volume"
+      android:max="100"
+      android:defaultValue="30"
+      />
+    <Preference
+      android:key="pref_test_adhan"
+      android:title="@string/test_adhan"
+      android:summary="@string/test_adhan_description"
+      android:defaultValue="false"
+      />
+  </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

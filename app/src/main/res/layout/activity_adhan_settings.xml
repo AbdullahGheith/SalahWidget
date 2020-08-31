@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".UI.Fragments.MainActivity.AdhanSettings" tools:layout_editor_absoluteY="25dp">
+
+    <TextView android:id="@+id/message" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/weekdays" app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button android:text="@string/configure_holidays" android:layout_width="wrap_content" android:layout_height="49dp"
+        android:id="@+id/adhansettingsholidaysetup" android:layout_marginTop="28dp" android:layout_marginBottom="29dp"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/adhansettingFajr"
+        app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="1dp" android:layout_marginRight="1dp" />
+    <CheckBox android:text="@string/fajr" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/adhansettingFajr" app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="106dp"
+        android:layout_marginEnd="6dp" android:layout_marginRight="6dp" app:layout_constraintEnd_toEndOf="@+id/adhansettingDhuhr" />
+    <CheckBox android:text="@string/dhuhr" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/adhansettingDhuhr" app:layout_constraintStart_toStartOf="@+id/adhansettingMaghrib"
+        android:layout_marginTop="8dp" android:layout_marginLeft="6dp" android:layout_marginStart="6dp"
+        app:layout_constraintTop_toBottomOf="@+id/adhansettingFajr" />
+    <CheckBox android:text="@string/asr" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/adhansettingAsr" android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/adhansettingDhuhr"
+        android:layout_marginEnd="7dp" android:layout_marginRight="7dp" app:layout_constraintEnd_toEndOf="@+id/adhansettingDhuhr" />
+    <CheckBox android:text="@string/maghrib" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/adhansettingMaghrib" app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/adhansettingAsr"
+        app:layout_constraintEnd_toEndOf="parent" />
+    <CheckBox android:text="@string/isha" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:id="@+id/adhansettingIsha" app:layout_constraintStart_toStartOf="@+id/adhansettingMaghrib"
+        android:layout_marginTop="8dp" android:layout_marginLeft="11dp" android:layout_marginStart="11dp"
+        app:layout_constraintTop_toBottomOf="@+id/adhansettingMaghrib" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@+id/navigation" android:layout_width="0dp"
+        android:layout_height="wrap_content" android:background="@color/colorPrimary" app:menu="@menu/navigation"
+        app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

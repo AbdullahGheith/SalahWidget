@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+    android:layout_width="match_parent" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/calendarselection_layout" android:layout_height="match_parent">
+
+    <TextView android:maxLines="1" android:autoSizeTextType="uniform" android:gravity="center" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Wed, 16 May 2018" android:id="@+id/calendarselection_currentdate"/>
+</LinearLayout>
